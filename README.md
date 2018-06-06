@@ -8,7 +8,7 @@
 
 Starting from an unresponsive CSS layout of Steve's profile (or your own version if you prefer) use CSS media queries to make the website aesthetically pleasing at all screen widths and devices. Ensure the page has at least two noticeably different layouts at different screen widths.
 
-Here are some helpful hints to get you started: 
+Here are some helpful hints to get you started:
 
  - Remember that CSS is read downwards and overwrites as it goes down
  - Start mobile first - how does this dictate what kind of media query you will use?
@@ -19,3 +19,5 @@ Here are some helpful hints to get you started:
 
  1. Have two breakpoints, giving a mobile, tablet and desktop view
  2. Simplify your CSS as much as possible - prizes for the least lines of CSS code!
+
+ .
