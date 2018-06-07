@@ -26,26 +26,36 @@ header, section {
 	clear: both;
 	margin-top: 30px;
 	text-align: center;
+	float:right;
 }
+
+.employment .right2 {
+	display: inline-block;
+	clear: both;
+	float:right;
+	box-sizing: border-box;
+}
+
 
 header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
 
-@media screen and (max-width:1000px) {
-	.middle, .left, .right, .experience .employment {
+@media screen and (max-width:850px) {
+	.middle, .left, .right, .experience .employment .main-content {
 	clear: both;
 	display: block;
 	width: 100%;
 	height:100%;
 	padding: 0;
-	margin: 0 auto;
-	box-sizing: border-box;
-	/* margin-bottom: 20%; */
+	}
+	.middle .experience .employment .left {
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 	.experience {
-		margin-top: 0;
+		margin-top: 0px;
 	}
 	.right2 {
 		text-align: left;
