@@ -31,7 +31,7 @@
 
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:870px) {
   .resp {
     clear: both;
     display: block;
@@ -41,9 +41,35 @@
   	margin: 0 auto;
   	box-sizing: border-box;
   }
-  .headshot {
+  .headshot1 {
     display: block;
     text-align: center;
     font-style: normal;
+  }
+}
+
+@media screen and (min-width:870px) and (max-width:1000px) {
+  .resp {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+  	height:100%;
+  	padding: 0 3%;
+  	margin: 0 auto;
+  	box-sizing: border-box;
+  }
+  .headshot1 {
+    display: inline-block;
+    width:60%;
+    font-style: normal;
+    float: right;
+    padding: 2%;
+  }
+  .headshot2 {
+    float: left;
+    width: 30%;
+    align:center;
+    padding-top:10%;
+    padding-left: 3%;
   }
 }
