@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (max-width:869px) {
+@media screen and (max-width:850px) {
   .resp {
     clear: both;
     display: block;
@@ -53,7 +53,7 @@
   }
 }
 
-@media screen and (min-width:870px) and (max-width:1050px) {
+@media screen and (min-width:850px) and (max-width:1024px) {
   .resp {
     clear: both;
     display: inline-block;

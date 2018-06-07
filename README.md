@@ -1,3 +1,10 @@
+This is a website profile for Steve a star employee!!
+
+It has been made responsive at three different screen widths to optimise for:
+mobile, tablet and desktop view.
+
+
+
 # CSS Media Queries Lab
 
 ## Timings
