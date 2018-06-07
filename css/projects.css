@@ -12,11 +12,13 @@
 	text-align: center;
 	border: 2px solid #E13A63;
 	box-sizing: border-box;
+  font-size: 1em;
 }
 
 .tile img	{
 	display: block;
 	margin: 0 auto;
+  width: 100%
 }
 
 .git {
@@ -24,4 +26,22 @@
   color: red;
   padding: 1;
 
+}
+
+@media screen and (max-width:1000px) {
+  .resp, .resp p {
+    clear: both;
+    display: block;
+    width: 100%;
+  	height:100%;
+  	padding: 0;
+  	margin: 0 auto;
+  	box-sizing: border-box;
+    padding:10px;
+  }
+  .headshot {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+  }
 }
