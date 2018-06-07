@@ -32,3 +32,25 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width:1000px) {
+	.middle, .left, .right, .experience .employment {
+	clear: both;
+	display: block;
+	width: 100%;
+	height:100%;
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	/* margin-bottom: 20%; */
+	}
+	.experience {
+		margin-top: 0;
+	}
+	.right2 {
+		text-align: left;
+	}
+	.right {
+		text-align: center;
+	}
+}
