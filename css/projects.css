@@ -26,12 +26,14 @@
   color: red;
   text-align: center;
   font-size:0.9em;
+}
 
+.headshot2, .headshot1 {
+  text-align: center;
 }
 
 
-
-@media screen and (max-width:870px) {
+@media screen and (max-width:869px) {
   .resp {
     clear: both;
     display: block;
@@ -46,9 +48,12 @@
     text-align: center;
     font-style: normal;
   }
+  .headshot2 {
+    text-align: center;
+  }
 }
 
-@media screen and (min-width:870px) and (max-width:1000px) {
+@media screen and (min-width:870px) and (max-width:1050px) {
   .resp {
     clear: both;
     display: inline-block;
