@@ -1,0 +1,47 @@
+
+h1,h4 {
+  color:#E13A63;
+}
+
+h4 {
+  margin-top:30px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+}
+
+#logo {
+  width:100px;
+  margin-top:7px;
+}
+
+#headshot {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+.navbar {
+  background-color: #01181b;
+}
+
+.navbar a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 10px 10px 0px;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.main-content {
+  margin: 0 80px;
+}
